@@ -1,45 +1,54 @@
 {
-  "bg": "https://www.hitalent.co/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBMmJDQXc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--1452099b706ad7d079f7a3a4dd5d702ebeeae45f/HiTalent.png",
-  "title": "Quiz JavaScript #AluraQuiz",
-  "description": "Um quiz rápido sobre o mundo do JavaScript",
+  "bg": "https://u-hu.co/images/fundo-uno-purple.png",
+  "title": "Vc conhece seu cabelo?",
+  "description": "Um quiz rápido sobre o seu cabelo!",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
-      "title": "Qual a diferença entre = , == e === ?",
+      "image": "https://media.giphy.com/media/fzub3vneXmvx6/giphy.gif",
+      "title": "Porque o cabelo afro é encaracolado?",
       "description": "Pergunta fácil em!",
-      "answer": 1,
+      "answer": 2,
       "alternatives": [
-        "São a mesma coisa",
-        "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável."
+        "Porque SIM!",
+        "Sempre foi assim e sempre será.",
+        "Devido ao fio ser oval, por isso ele gira em torno do proprio fio deixando-o encaracolado. Quanto mais oval mais encaracolado.",
+        "Devido ao angulo de saído do fio em relação ao couro cabeludo"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif",
-      "title": "Que tipos de dados são suportados em JavaScript?",
+      "image": "https://media.giphy.com/media/D0SRkRhJRKsU/giphy.gif",
+      "title": "Com relação a coloração o que não é verdade?",
       "description": "E agora? Você sabe?",
-      "answer": 0,
+      "answer": 1,
       "alternatives": [
-        "Number, String, Undefined, Null e Bool.",
-        "Int, String, Undefined, Null e Bool."
+        "Existem colorações permanentes e tonalizantes!",
+        "Os tonalizantes destroem os cabelos.",
+        "A coloração permanente fica dentro da fibra capilar",
+        "O descolorante é usado para clarear o cabelo"
+
       ]
     },
     {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a diferença de window e global?",
-      "answer": 1,
+      "image": "https://media.giphy.com/media/d3Fym9OQ08o6agYE/giphy.gif",
+      "title": "Porque o cabelo fica quebradiço?",
+      "answer": 2,
       "alternatives": [
-        "São a mesma coisa",
-        "window é o escopo global no browser, e global no node"
+        "Pq ele fica velho",
+        "Uso de shampoo e condicionador",
+        "Processos de alisamento",
+        "Uso continuo de tonalizantes"
+
       ]
     },
     {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a forma antiga de trabalhar com AJAX na Web?",
-      "answer": 1,
+      "image": "https://media.giphy.com/media/6Ej5lfviMaEnu/giphy.gif",
+      "title": "As cápsulas U-hu UNO servem para?",
+      "answer": 3,
       "alternatives": [
-        "JSONHttpRequest",
-        "XMLHttpRequest",
-        "fetch"
+        "Reparar e condicionar os cabelos",
+        "Auxiliar na definição dos Cachos",
+        "Hidratar os cabelos",
+        "Todas as anteriores"
       ]
     }
   ],
@@ -49,10 +58,14 @@
     "https://aluraquiz-marvel.omariosouto.vercel.app/"
   ],
   "theme": {
+    "palette": {
+        "primary": "deepPurple",
+        "secondary": "lime"
+      },
     "colors": {
-      "primary": "#222222",
-      "secondary": "#e89c3f",
-      "mainBg": "#213f4e",
+      "primary": "#482880",
+      "secondary": "#8ab200",
+      "mainBg": "#673ab7",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
       "success": "#4CAF50"

@@ -7,15 +7,19 @@ import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import AlternativesForm from '../src/components/AlternativesForm';
 import Button from '../src/components/Button';
+import { ContextConsumer } from 'react-is';
 
 function ResultWidget({ results }) {
+  let [search, name] = window.location.search.split('=');
+  // let params = new URLSearchParams(search);
+  // let userName = params.get('query');
   return (
     <Widget>
       <Widget.Header>
         Tela de Resultado:
       </Widget.Header>
-
       <Widget.Content>
+        <h3>Parabens { name }, vc foi incrível! ;)</h3>
         <p>
           Você acertou
           {' '}
